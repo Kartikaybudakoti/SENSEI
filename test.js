@@ -38,6 +38,9 @@ var bot = new builder.UniversalBot(connector, function (session) {
                             
         });
 	}
+	else if(command == 'fine'){
+	session.send('good!');	
+	}
 	else if(command == 'quotes'){
 		session.send("quotes are working");
 		var urlw = 'https://talaikis.com/api/quotes/random/';
