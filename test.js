@@ -120,7 +120,7 @@ session.send("*_*");
 }		
 
 
-else if(command =='thanks' || command=='thank you'|| command=='thankyou')
+else if(command =='thanks' || command=='thank you'|| command=='thankyou' || command=='Thanks' || command=='Thank you' || command=='Thankyou')
 			{
 			session.send('welcome sir. try something else');	
 			session.send("Please choose an option below. ");
@@ -138,7 +138,7 @@ else if(command=='bye'|| command=='Bye'|| command=='tata' || command =='bie')
 		session.send("Have a Nice day ");
 		}
 
-else if(command=='shopping'){
+else if(command=='shopping' || command=='Shopping'){
     session.send("Hi... We sell clothing products. Say 'show items' to see our products.");}
 else{
     		session.send("try an option below.");
