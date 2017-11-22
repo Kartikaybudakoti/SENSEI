@@ -16,8 +16,18 @@
   "dependencies": {
     "botbuilder": "^3.8.4",
     "hubot-search": "^0.1.2",
+    "node-wikia": "0.0.3",
     "openweathermap": "^1.0.0",
     "request": "^2.81.0",
     "restify": "^5.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kartikaybudakoti/SENSEI.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kartikaybudakoti/SENSEI/issues"
+  },
+  "homepage": "https://github.com/Kartikaybudakoti/SENSEI#readme"
 }
